@@ -513,12 +513,8 @@ a{
     .about img{
         width: 300px;
     }
-    .right{
-        width: 34%;
-        height: auto;
-    }
-    .left{
-        width: 34%;
+    .history img{
+        width: 450px;
         height: auto;
     }
     .card_grains{
@@ -569,3 +565,4 @@ a{
         font-size: 26px;
     }
 }
+
