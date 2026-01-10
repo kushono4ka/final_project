@@ -9,10 +9,8 @@ body{
     padding: 0px;
     margin: 0px;
 }
-
 header{
     width: 100%;
-    height: 150px;
     background-color: #6a3b37;
     color: #fdfcdc;
     position: absolute;
@@ -43,7 +41,6 @@ li:hover{
 h1 {
     padding-left: 10px;
 }
-/* добавить 1 */
 .header{
     display: flex;
     margin-top: 5px;
@@ -51,42 +48,19 @@ h1 {
 }
 header > .header  img{
     display: inline-block;
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
     margin-top: 5px;
     margin-right: 5px;
 }
 main{
-    color: #6a3b37;
-    margin-top: 180px;
-    width: 60%;
-    margin-left: 20%;
-    font-size: 22px;
     text-align: justify;
 }
 .s1 {
     font-weight: bolder;
-    font-size: 25px;
 }
 .about img{
-    width: 300px;
-    float: right;
     margin-left: 20px;
     border-radius: 10px;
     margin-top: 10px;
-}
-.right{
-    float: right;
-    margin-left: 20px;
-    border-radius: 10px;
-    margin-top: 14px;
-}
-.left{
-    float: left;
-    margin-right: 20px;
-    border-radius: 10px;
-    margin-top: 5px;
 }
 hr {
     border: 0;
@@ -96,30 +70,19 @@ hr {
     background-color:#6a3b37;
     height: 2px;
 }
-p{
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
 .card_grains{
-    width: 45%;
-    height: 500px;
     background-color: #699051;
     padding: 15px;
     box-sizing: border-box;
     border-radius: 10px;
-    margin-left: 30px;
     color: #fdfcdc;
-    font-size: 18px;
 }
 .card_grains p{
     margin-top: 6px;
     margin-bottom: 10px;
 }
 .card_grains img{
-    width: 280px;
-    height: 280px;
     border-radius: 10px;
-    margin-left: 40px;
 }
 .for_cards{
     display: flex;
@@ -131,8 +94,6 @@ p{
     font-size: 20px;
 }
 .card_drinks{
-    width: 280px;
-    height: 320px;
     background-color: #699051;
     padding: 10px;
     margin-bottom: 20px;
@@ -143,12 +104,9 @@ p{
     text-align: center;
 }
 .card_drinks img{
-    width: 260px;
-    height: 260px;
     border-radius: 10px;
 }
 .card_drinks h4{
-    font-size: 20px;
     margin-top: 5px;
 }
 .for_drinks{
@@ -158,8 +116,6 @@ h2{
     margin-bottom: 8px;
 }
 .btn{
-    width: 100px;
-    height: 40px;
     text-align: center;
     background-color: #699051;
     color: #fdfcdc;
@@ -169,7 +125,6 @@ h2{
 }
 article{
     display: flex;
-    margin-bottom: 30px;
 }
 article > p{
     margin-top: 40px;
@@ -187,15 +142,10 @@ footer{
     background-color: #699051;
     color: #fdfcdc;
     padding-top: 10px;
-    font-size: 20px;
-    height: 80px;
-    display: flex;
     justify-content: space-evenly;
     padding-top: 40px;
 }
 .btn1{
-    width: 190px;
-    height: 40px;
     text-align: center;
     border-radius: 6px;
     padding-top: 5px;
@@ -203,8 +153,6 @@ footer{
     margin-bottom: 10px;
 }
 .btn2{
-    width: 300px;
-    height: 40px;
     text-align: center;
     color: #fdfcdc;
     border-radius: 6px;
@@ -236,27 +184,21 @@ a{
     text-decoration: none;
     color: #fdfcdc;
 }
+
 @media (min-width: 320px){
+    body{
+        font-size: 20px;
+    }
     header{
-        width: 780px;
-        margin: 0;
-        height: 170px;
-        background-color: #6a3b37;
-        color: #fdfcdc;
-        position: absolute;
-        top: -10px;
-        padding: 10px;
-        margin-left: 0px;
-        box-sizing: border-box;
+        height: 166px;
     }
     h1{
-        font-size: 40px;
+        font-size: 26px;
     }
     header > .header  img{
-        display: inline-block;
-        width: 84px;
-        height: 84px;
-        border-radius: 42px;
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
         margin-top: 32px;
         margin-right: 5px;
     }
@@ -264,64 +206,71 @@ a{
         z-index: -1;
     }
     main{
-        color: #6a3b37;
-        margin-top: 180px;
-        width: 702px;
-        margin-left: 30px;
-        font-size: 37px;
-        text-align: justify;
+        margin-top: 174px;
+        width: 96%;
+        margin-left: 2%;
+        font-size: 20px;
     }
     .s1 {
         font-weight: bolder;
-        font-size: 38px;
+        font-size: 22px;
     }
     .about img{
-        width: 300px;
-        float: right;
-        margin-left: 20px;
+        float: none;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .right{
+        float: none;
+        margin-left: 0px;
         border-radius: 10px;
-        margin-top: 10px;
+        margin-top: 14px;
+        width: 100%;
+    }
+    .left{
+        float: none;
+        width: 100%;
+        margin-right: 0px;
+        border-radius: 10px;
+        margin-top: 5px;
     }
     .card_grains{
-        width: 580px;
-        height: 750px;
-        padding: 10px;
-        margin-left: 70px;
-        font-size: 33px;
+        width: 90%;
+        height: auto;
+        padding: 5px;
+        margin-left: 5%;
+        font-size: 20px;
         margin-bottom: 15px;
     }
     .card_grains img{
-        margin-left: 25%;
+        width: 90%;
+        margin-left: 5%;
     }
     .for_cards{
         display: block;
     }
     .card_drinks{
-        width: 500px;
-        height: 540px;
+        width: 90%;
+        height: auto;
         padding: 10px;
-        margin-left: 100px;
+        margin-left: 4%;
     }
     .card_drinks img{
-        width: 460px;
-        height: 460px;
+        width: 94%;
+        height: auto;
         border-radius: 20px;
     }
     .card_drinks h4{
-        font-size: 37px;
+        font-size: 24px;
+        margin-bottom: 4px;
     }
     .for_drinks{
         display: block;
     }
     .btn{
-        width: 200px;
-        height: 60px;
-        text-align: center;
-        background-color: #699051;
-        color: #fdfcdc;
-        border-radius: 6px;
-        padding-top: 5px;
-        box-sizing: border-box;
+        width: 60%;
+        height: max-content;
+        padding: 8px;
     }
     article{
         display: block;
@@ -329,269 +278,207 @@ a{
     }
     article > img{
         border-radius: 10px;
-        margin-left: 10px;
+        margin-left: 5px;
         margin-right: 20px;
-        width: 600px;
-        height: 375px;
+        width: 94%;
+        height: auto;
     }
     footer{
-        font-size: 35px;
+        display: block;
+        font-size: 20px;
         height: 140px;
-        width: 780px;
+        width: 100%;
     }
     .btn1{
-        width: 210px;
-        height: 100px;
-        padding-top: 10px;
+        margin-left: 15%;
+        width: 70%;
+        height: 25%;
+        padding-top: 6px;
+        margin-bottom: 20px;
     }
     .btn2{
-        width: 360px;
-        height: 100px;
-        padding-top: 10px;
+        margin-left: 15%;
+        width: 70%;
+        height: auto;
+        padding-top: 3px;
     }
 }
-@media (min-width: 800px){
+@media (min-width: 768px){
     header{
-        width: 100%;
-        margin: 0;
         height: 230px;
-        background-color: #6a3b37;
-        color: #fdfcdc;
-        position: absolute;
-        top: -10px;
-        padding: 10px;
-        margin-left: 0px;
-        box-sizing: border-box;
     }
     h1{
         font-size: 40px;
     }
     ul {
-        list-style-type: none;
-        display: flex;
-        margin-left: 0px;
+        margin-left: -18px;
         margin-top: 3px;
         z-index: 1;
     }
     li {
         width: 200px;
         height: 40px;
-        font-size: 20px;
+        font-size: 22px;
         z-index: 1;
     }
     header > .header  img{
-        display: inline-block;
         width: 84px;
         height: 84px;
         border-radius: 42px;
-        margin-top: 32px;
-        margin-right: 5px;
     }
     main{
-        color: #6a3b37;
         margin-top: 250px;
-        width: 702px;
-        margin-left: 50px;
-        font-size: 37px;
-        text-align: justify;
-    }
-    footer{
-        width: 100%;
-    }
-}
-@media (min-width: 1024px){
-    ul {
-        list-style-type: none;
-        display: flex;
-        margin-left: 0px;
-        margin-top: 3px;
-        z-index: 1;
-    }
-    li {
-        padding: 5px;
-        width: 240px;
-        height: 40px;
-        font-size: 27px;
-        z-index: 1;
-    }
-    main{
-        color: #6a3b37;
-        margin-top: 250px;
-        width: 90%;
-        margin-left: 5%;
-        font-size: 37px;
-    }
-    .card_grains{
-        padding: 10px;
-        margin-left: 18%;
-        font-size: 33px;
-    }
-    .card_drinks{
-        width: 530px;
-        height: 570px;
-        padding: 10px;
-        margin-left: 18%;
-    }
-    .card_drinks img{
-        width: 480px;
-        height: 480px;
-        border-radius: 20px;
-    }
-    footer{
-        font-size: 35px;
-        height: 140px;
-        width: 100%;
-    }
-}
-@media (min-width: 1280px){
-    header{
-        width: 100%;
-        height: 170px;
-        position: absolute;
-        top: -10px;
-        padding: 10px;
-        margin: 0px;
-    }
-    ul {
-        list-style-type: none;
-        display: flex;
-        margin-left: 15%;
-        margin-top: 3px;
-    }
-    li {
-        width: 20%;
-        height: 40px;
-        border-radius: 10px;
-        text-align: center;
-        box-sizing: border-box;
-        padding-top: 8px;
-        font-size: 20px;
-    }
-    li:hover{
-        background-color: #699051;
-        transition: 0.3s;
-    }
-    h1 {
-        padding-left: 10px;
-    }
-    .header{
-        display: flex;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    header > .header  img{
-        display: inline-block;
-        width: 70px;
-        height: 70px;
-        border-radius: 35px;
-        margin-top: 5px;
-        margin-right: 5px;
-    }
-    main{
-        color: #6a3b37;
-        margin-top: 180px;
-        width: 60%;
-        margin-left: 20%;
-        font-size: 22px;
-        text-align: justify;
+        width: 80%;
+        margin-left: 10%;
+        font-size: 30px;
     }
     .s1 {
-        font-weight: bolder;
-        font-size: 25px;
+        font-size: 32px;
     }
     .about img{
-        width: 300px;
         float: right;
-        margin-left: 20px;
-        border-radius: 10px;
-        margin-top: 10px;
+        width: 58%;
+        margin-left: 10%;
     }
     .right{
         float: right;
-        margin-left: 20px;
+        margin-left: 10px;
         border-radius: 10px;
         margin-top: 14px;
+        width: 58%;
     }
     .left{
         float: left;
-        margin-right: 20px;
+        width: 58%;
+        margin-right: 10px;
         border-radius: 10px;
         margin-top: 5px;
     }
-    hr {
-        border: 0;
-        clear:both;
-        display:block;
-        width: 100%;
-        background-color:#6a3b37;
-        height: 2px;
+    .card_grains{
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+        font-size: 26px;
+    }  
+    .card_grains h4{
+        font-size: 30px;
     }
-    p{
-        margin-top: 16px;
-        margin-bottom: 16px;
+    .card_drinks{
+        width: 60%;
+        margin-left: 20%;
+    }
+    footer{
+        display: flex;
+        font-size: 30px;
+    }
+    .btn1{
+        width: 45%;
+        height: max-content;
+        margin-left: 5%;
+        padding: 5px;
+    }
+    .btn2{
+        width: 45%;
+        height: max-content;
+        margin-left: 5%;
+        padding: 5px;
+    }
+    
+}
+@media (min-width: 1024px){
+    h1{
+        margin-top: 48px;
+    }
+    .s1{
+        font-size: 25px;
+    }
+    main{
+        width: 74%;
+        margin-left: 13%;
+        font-size: 23px;
+    }
+    .about > img {
+        width: 40%;
+    }
+    .history > img {
+        width: 44%;
     }
     .card_grains{
-        width: 45%;
-        height: 500px;
-        background-color: #699051;
-        padding: 15px;
-        box-sizing: border-box;
-        border-radius: 10px;
-        margin-left: 30px;
-        color: #fdfcdc;
-        font-size: 18px;
-    }
-    .card_grains img{
-        width: 280px;
-        height: 280px;
-        border-radius: 10px;
-        margin-left: 40px;
+        width: 50%;
+        margin-left: 2%;
+        font-size: 22px;
     }
     .for_cards{
         display: flex;
     }
-    .card_drinks{
-        width: 280px;
-        height: 320px;
-        padding: 10px;
-        margin-bottom: 20px;
-        margin-left: 15px;
-    }
-    .card_drinks img{
-        width: 260px;
-        height: 260px;
-        border-radius: 10px;
-    }
-    .card_drinks h4{
-        font-size: 20px;
-        margin-top: 5px;
-    }
     .for_drinks{
         display: flex;
     }
+    .card_drinks{
+        width: 33%;
+        height: auto;
+        padding: 10px;
+        margin-left: 1%;
+
+    }
+    footer{
+        font-size: 24px;
+    }
+    .btn1{
+        width: 47%;
+        margin-left: 2%;
+    }
+}
+@media (min-width: 1280px){
+    header{
+        height: 170px;
+    }
+    .header > h1 {
+        margin-top: 20px;
+    }
+    ul{
+        margin-left: 14%;
+    }
+    li {
+        font-size: 22px;
+    }
+
+    header > .header  img{
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+    main{
+        margin-top: 180px;
+        width: 72%;
+        margin-left: 14%;
+    }
+    .about img{
+        margin-left: 20px;
+    }
+    .card_grains{
+        width: 47%;
+        margin-left: 2%;
+        height: auto;
+        font-size: 18px;
+    }
+    .card_grains img{
+        width: 76%;
+        height: auto;
+        margin-left: 12%;
+    }
     .btn{
-        width: 100px;
-        height: 40px;
-        text-align: center;
-        background-color: #699051;
-        color: #fdfcdc;
-        border-radius: 6px;
-        padding-top: 5px;
-        box-sizing: border-box;
+        width: 40%;
     }
     article{
         display: flex;
         margin-bottom: 30px;
     }
     article > p{
-        margin-top: 40px;
+        margin-top: 10px;
     }
     article > img{
-        width: 400px;
-        height: 250px;
-        border-radius: 10px;
-        margin-left: 10px;
-        margin-right: 20px;
+        width: 45%;
+        height: auto;
     }
     .facts{
         display: block;
@@ -608,5 +495,77 @@ a{
     .btn2{
         width: 300px;
         height: 40px;
+    }
+}
+@media (min-width: 1600px){
+    li {
+        width: 20%;
+        height: 40px;
+    }
+    main{
+        width: 66%;
+        margin-left: 17%;
+        font-size: 25px;
+    }
+    .s1 {
+        font-size: 28px;
+    }
+    .about img{
+        width: 300px;
+    }
+    .right{
+        width: 34%;
+        height: auto;
+    }
+    .left{
+        width: 34%;
+        height: auto;
+    }
+    .card_grains{
+        width: 47%;
+        height: auto;
+        padding: 1%;
+        margin-left: 2%;
+        font-size: 25px;
+    }
+    .card_grains img{
+        width: 62%;
+        height: auto;
+        margin-left: 18%;
+    }
+    .card_drinks{
+        width: 30%;
+        height: auto;
+        margin-left: 3%;
+    }
+    .card_drinks img{
+        width: 260px;
+        height: 260px;
+    }
+    .card_drinks h4{
+        font-size: 26px;
+    }
+    .btn{
+        width: 30%;
+        height: 50px;
+        padding-top: 6px;
+    }
+    article  p{
+        margin-top: 10px;
+    }
+    article > img{
+        width: 380px;
+        height: 250px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .btn1{
+        width: 35%;
+        font-size: 26px;
+    }
+    .btn2{
+        width: 35%;
+        font-size: 26px;
     }
 }
