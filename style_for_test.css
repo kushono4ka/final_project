@@ -1,0 +1,332 @@
+@import url(https://fonts.google.com/specimen/Ubuntu+Mono?lang=ru_Cyrl&categoryFilters=Feeling:%2FExpressive%2FCalm;Appearance:%2FMonospace%2FMonospace);
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubun Mono', monospace;
+    background-color: #fdfcdc;
+    color: #6a3b37;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 130px;
+    background-color: #6a3b37;
+    color: #fdfcdc;
+    position: absolute;
+    top: -10px;
+    padding: 20px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+header > .header  img{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+main{
+    color: #6a3b37;
+    margin-top: 150px;
+    width: 58%;
+    margin-left: 21%;
+    font-size: 22px;
+    text-align: justify;
+}
+.introduction{
+    padding: 0px 20px 0px 20px;
+}
+.introduction p{
+    margin-top: 40px;
+    text-indent: 25px;
+}
+.introduction img{
+    float: right;
+    border-radius: 10px;
+    width: 40%;
+    margin: 0px 0px 10px 70px;
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 100%;
+    background-color:#6a3b37;
+    height: 2px;
+}
+.anketa{
+    width: 48%;
+    margin-left: 26%;
+    margin-top: 20px;
+    height: auto;
+    position: relative;
+}
+.anketa:hover{
+    transform: translateY(-6px);
+    transition: 0.3s;
+}
+.anketa img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.anketa h2{
+    margin-top: 20%;
+    margin-bottom: 6%;
+}
+.anketa input{
+    margin-left: 20%;
+    display: block;
+    margin-top: 6%;
+    width: 60%;
+    height: 6%;
+    border-radius: 10px;
+    background-color: #fdfcdc;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgba(106, 59, 55, 0.69);
+}
+.anketa button{
+    margin-left: 22%;
+    display: block;
+    margin-top: 10%;
+    width: 56%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: #699051;
+    border: 1px solid #699051;
+    font-size: 30px;
+    font-family: 'Ubun Mono', monospace;
+    color: #fdfcdc;
+    
+}
+.anketa button:hover{
+    background-color: #5b7c47;
+    border-color: #5b7c47;
+    transition: 0.3s;
+}
+.nameError{
+    font-size: 20px;
+    color: #fdfcdc;
+    margin-top: 10px;
+}
+.mask1{
+    background-color: rgba(106, 59, 55, 0.7);
+    color: #fafaf4;
+    text-align: center;
+    width: 100%;
+    height: 99%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.q{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    border: solid 3px rgba(106, 59, 55, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 5px;
+    font-size: 24px;
+}
+.q p{
+    font-size: 26px;
+}
+.for_q{
+    margin-bottom: 10px;
+}
+.for_q input{
+    display: inline-block;
+}
+.for_q label{
+    display: inline-block;
+}
+form{
+    display: none;
+    opacity: 0;
+    transition: opacity 2.5s;
+}
+.getResult{
+    width: 38%;
+    margin-left: 31%;
+    margin-top: 30px;
+    height: auto;
+    background-color: #699051;
+    border-radius: 10px;
+    text-align: center;
+    color: #fdfcdc;
+    padding: 10px 0px 10px 0px;
+    font-size: 26px;
+    display: none;
+
+}
+.getResult:hover{
+    background-color: #5b7c47;
+    border-color: #5b7c47;
+    transition: 0.3s;
+}
+.checkError{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    transition: 0.3px;
+}
+.result{
+    display: none;
+    font-size: 22px;
+}
+.result p{
+    margin-top: 10px;
+}
+h4{
+    margin-top: 20px;
+}
+.double_espresso{
+    width: 98%;
+    margin-left: 1%;
+    display: none;
+}
+.double_espresso img{
+    width: 35%;
+    height: auto;
+    float: left;
+    margin: 0px 15px 5px 0px;
+    border-radius: 10px;
+}
+.americano{
+    width: 98%;
+    margin-left: 1%;
+    display: none;
+}
+.americano img{
+    width: 35%;
+    height: auto;
+    float: left;
+    margin: 0px 15px 5px 0px;
+    border-radius: 10px;
+}
+.raf{
+    width: 98%;
+    margin-left: 1%;
+    display: none;
+}
+.raf img{
+    width: 35%;
+    height: auto;
+    float: left;
+    margin: 0px 15px 5px 0px;
+    border-radius: 10px;
+}
+.capuchino{
+    width: 98%;
+    margin-left: 1%;
+    display: none;
+}
+.capuchino img{
+    width: 35%;
+    height: auto;
+    float: left;
+    margin: 0px 15px 5px 0px;
+    border-radius: 10px;
+}
+.espresso{
+    width: 98%;
+    margin-left: 1%;
+    display: none;
+}
+.espresso img{
+    width: 35%;
+    height: auto;
+    float: left;
+    margin: 0px 15px 5px 0px;
+    border-radius: 10px;
+}
+.latte{
+    width: 98%;
+    margin-left: 1%;
+    display: none;
+}
+.latte img{
+    width: 35%;
+    height: auto;
+    float: left;
+    margin: 0px 15px 5px 0px;
+    border-radius: 10px;
+}
+.flat_white{
+    width: 98%;
+    margin-left: 1%;
+    display: none;
+}
+.flat_white img{
+    width: 35%;
+    height: auto;
+    float: left;
+    margin: 0px 15px 5px 0px;
+    border-radius: 10px;
+}
+footer{
+    margin-top: 80px;
+    height: 130px;
+    background-color: #699051;
+    font-size: 24px;
+    padding-top: 50px;
+    display: flex;
+    box-sizing: border-box;
+}
+.btn1{
+    width: 26%;
+    height: max-content;
+    padding-top: 1px;
+    padding-left: 7%;
+    text-align: center;
+    display: flex;
+    margin-left: 16%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.btn2{
+    padding-left: 7%;
+    width: 32%;
+    height: max-content;
+    padding-top: 1px;
+    text-align: center;
+    display: flex;
+    margin-left: 16%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.btn1:hover{
+    background-color: #6a3b37;
+    transition: 0.7s;
+}
+.btn2:hover{
+    background-color: #6a3b37;
+    transition: 0.7s;
+}
+a{
+    text-decoration: none;
+    color: #fdfcdc;
+}
+.result button{
+    width: 20%;
+    margin-left: 70%;
+    background-color: #699051;
+    color: #fdfcdc;
+    font-size: 26px;
+    border-radius: 10px;
+    border-color: #699051;
+    display: block;
+}
